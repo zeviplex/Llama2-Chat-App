@@ -15,10 +15,10 @@ import streamlit as st
 app = FastAPI()
 
 # Your PAT (Personal Access Token) can be found in the portal under Authentification
-PAT = ''
+PAT = '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'
 # Specify the correct user_id/app_id pairings
 # Since you're making inferences outside your app's scope
-USER_ID = 'aianytime'
+USER_ID = 'zeviplex'
 APP_ID = 'Llama2-Chat-App'
 # Change these to whatever model and text URL you want to use
 WORKFLOW_ID = 'Llama-2-Workflow'
